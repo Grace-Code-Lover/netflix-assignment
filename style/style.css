@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    overflow-x: hidden;
+}
+ .section-2, .section-3, .section-4, .section-5, .section-6, .section-7{
+    background-color: black;
+    border-bottom: 5px solid gray;
+}
+
+.section-2{
+    border-top: 5px solid grey;
+}
+
+.background{
+    background-color: rgba(0, 0, 0, 0.719);
+    overflow: hidden;
+    z-index: -2;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: -100;
+}
+
+/* .section-1{
+    position: relative;
+} */
+
+.netflix-signIn{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 63rem;
+    margin-top: 20px;
+}
+
+.netflix-signIn img{
+    height: 80px;
+    margin-left: 30px;
+}
+
+.netflix-signIn button{
+    width: 80px;
+    height: 35px;
+    font-size: 18px;
+    border-radius: 2px;
+    margin-top: 20px;;
+}
+
+.s1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: absolute;
+    top: 30%;
+    left: 22.5%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.s1-text h1{
+    font-size: 60px;
+    
+}
+
+.s1-text h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.s1-text p, .section-6 p{
+    font-size: 20px;
+}
+
+.s1-text input, .section-6 input{
+    padding: 15px;
+    width: 520px;
+    font-size: 1rem;
+    border: none;
+}
+
+.s1-text button, .section-6 button{
+    width: 180px;
+    font-size: 20px;
+    background-color: rgb(184, 17, 17);
+}
+
+.s1-text input, .s1-text button {
+    height: 65px;
+}
+
+.s1-text input:active{
+    border: none;
+}
+
+.red-button{
+    background-color: red;
+    border: none;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.section-2{
+    display: flex;
+    gap: 380px;
+    position: relative;
+    height: 80vh;
+}
+
+.tv-video{
+    /* gap: -100px; */
+    position: relative;
+    
+}
+
+.tv-video img {
+    z-index: 2;
+    position: relative;
+    right: 40px;
+    height: 400px;
+}
+
+.tv-video video {
+    z-index: 1;
+    position: absolute;
+    right: 100px;
+    top: 75px;
+    height: 230px;
+}
+
+.s2-text, .s3-text , .s4-text, .s5-text{
+    display: inline;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.s2-text h1{
+    font-size: 80px;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    font-weight: 100;
+}
+
+.s2-text h3 {
+    font-size: 30px;
+    position: relative;
+    top: 250px;
+    left: 150px;
+    font-weight: 100;
+}
+
+.section-3 {
+    display: flex;
+    gap: 100px;
+}
+
+.s3-text h1, .s5-text h1{
+    font-size: 60px;
+    position: relative;
+    top: 120px;
+    right: 90px;
+    font-weight: 100;
+}
+
+.s3-text h3, .s5-text h3 {
+    font-size: 30px;
+    position: relative;
+    top: 180px;
+    right: 150px;
+    font-weight: 100;
+}
+
+.section-3 .download-div {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    width: 450px;
+    border: 3px gray solid;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    left: 90px;
+    bottom: 150px;
+    background-color: rgb(0, 0, 0);
+}
+
+.section-3 .download-div img {
+    height: 70px;
+    width: 65px;
+    margin-top: 5px;
+}
+
+.section-3 .download-div .gif {
+    height: 60px;
+    margin-top: 10px;
+}
+
+.section-3 .download-div p {
+    margin-top: 10px;
+}
+
+.section-3 .download-div span{
+    display: block;
+    margin: 7px;
+}
+
+.section-3 .download-div span + span{
+    color: rgb(2, 72, 129);
+    font-weight: 700;
+}
+
+.section-4{
+    height: 50vh;
+    
+}
+.s4-text h1{
+    font-size: 60px;
+    position: relative;
+    top: 70px;
+    left: 90px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.s4-text h3 {
+    font-size: 30px;
+    position: relative;
+    top: 110px;
+    left: 90px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.section-5 {
+    display: flex;
+}
+
+.s5-text h1 {
+    top: 120px;
+    right: 30px;
+}
+
+.s5-text h3 {
+    top: 170px;
+    right: 50px;
+}
+
+.section-6 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.section-6 h1 {
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+}
+
+.section-6 div {
+    position: relative;
+    width: 650px;
+    height: 50px;
+    background-color: rgb(68, 67, 67);
+    padding-top: 10px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 25%;
+    top: 60px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.section-6 p {
+    position: relative;
+    top: 6rem;
+}
+
+.section-6 span {
+    position: relative;
+    top: 7rem;
+}
+
+.section-6 button, .section-6 input {
+    height: 60px;
+}
+
+.section-7 footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.section-7 footer .foot-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
